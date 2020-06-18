@@ -1,0 +1,128 @@
+img{
+    border: 2px solid silver;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+}
+
+h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 23px;
+    width: 400px;
+}
+
+body{
+    background: silver;
+    font: 18px Helvetica;  
+}
+
+#main{
+    min-height: 800px;              /* R2// Al experimentar con los displays, block, inline-block y none, los cambios observados fueron los siguientes: */
+    margin: 0px;
+    padding: 0px;
+    display: flex;          /* block: Genera un cuadro de elemento de bloque donde se hospeda el div*/
+    flex-flow: row;         /*inline-block: Genera una caja en la que todos los elementos circundantes se hospedan como si fueran una sola linea*/
+
+}                           /*none: vuelve el div y su contenido completamente invisible, descartandolo del codigo*/
+
+ 
+    
+
+
+#li{
+    text-align: left;
+}
+#diome{
+    
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 5px;
+}
+#diome img{
+    height: 100px;
+    width: 100px;
+}
+
+#main article{
+    margin: 4px;
+    padding-left: 5px;
+    border: 1px solid red;
+    border-radius: 7px;
+    background:silver;
+    flex: 3 1 60%;
+    order: 2;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 2px solid red;
+    border-top: 18px solid black;
+    padding: 2px;
+}
+
+#main nav{
+    margin: 4px;
+    padding: 5px;
+    border: 3px solid red;
+    border-radius: 7px;
+    background: darkcyan;
+    flex: 1 6 20%;
+    order: 1;
+    text-align: center;
+}
+
+#main .cuadro p {
+    width: 300px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 12px;
+    float: left;
+    text-align: center;
+    
+}
+
+h2{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    min-height: 32px;
+    height: 42px;
+
+}
+
+#main aside{
+    margin: 4px;
+    padding: 5px;
+    border: 3px solid red;
+    border-radius: 7px;
+    background: darkcyan;
+    flex: 1 6 20%;
+    order: 3;
+}
+
+header, footer{
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    border: 3px solid red;
+    border-radius: 7px;
+    background: darkslategray;
+    font-size: large;
+
+}
